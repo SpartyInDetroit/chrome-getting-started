@@ -3,6 +3,7 @@
    "version": "0.1",
    "description": "Build an Extension!",
    "permissions": [
+      "activeTab",
       "declarativeContent",
       "storage"
    ],
@@ -27,5 +28,6 @@
       "48": "images/get_started48.png",
       "128": "images/get_started128.png"
    },
+   "options_page": "options.html",
    "manifest_version": 2
 }
